@@ -1,5 +1,7 @@
 package com.lee.tony.mymetalslug.comp;
 
+import android.graphics.Canvas;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,6 +31,21 @@ public class MonsterManager {
      * @param shift
      */
     public static void updatePosition(int shift){
-        
+
+    }
+
+    /**
+     * 检查怪物是否快要死亡，从而处理
+     */
+    public static void checkMoster(){
+
+    }
+
+    /**
+     * 绘制所有怪物的方法
+     * @param canvas
+     */
+    public static void drawMonster(Canvas canvas){
+
     }
 }
